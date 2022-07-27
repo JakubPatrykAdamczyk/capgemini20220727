@@ -1,0 +1,5 @@
+name: Jan
+surname: Kowalski
+salary: 7000
+bonus: 1000
+sum: 8000
