@@ -8,11 +8,11 @@ class Employer:
         self.job=job
         self.salary=salary
         self.bonus=bonus
-        self.total_salary=int(self.salary)+int(self.bonus)
+        self.total_salary=float(self.salary)+float(self.bonus)
     
     def applybonus(self,bonus):
         self.bonus=bonus
-        self.total_salary=int(self.salary)+int(self.bonus)
+        self.total_salary=float(self.salary)+float(self.bonus)
    
     def invoice(self):
         invn=str(self.f_name)+str(self.l_name)+".txt"
@@ -88,7 +88,7 @@ c.dep[0].display_employers()                                        #show Employ
 
 c.save()                                                            #save to file
 c.dep[0].users[0].invoice()                                         #make invoice
-c.dep[0].searchemp("Jan","Kowalski")                                #search name and surname (code ofert search by onlny name or onlny surname)
+c.dep[0].searchemp("Jan","Kowalski")                                #search name and surname (code ofert search by only name or onlny surname)
 
 
 
