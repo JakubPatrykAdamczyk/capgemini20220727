@@ -85,6 +85,7 @@ c.dep[0].add_employers("Jan","Kowalski",25,"IT",7000,0)             #add Employe
 c.dep[0].users[0].applybonus(1000)                                  #addbonus to Employer
 c.dep[0].applybonusall(1000)                                        #apply bonus to all Employer
 c.dep[0].display_employers()                                        #show Employer
+
 c.save()                                                            #save to file
 c.dep[0].users[0].invoice()                                         #make invoice
 c.dep[0].searchemp("Jan","Kowalski")                                #search name and surname (code ofert search by onlny name or onlny surname)
